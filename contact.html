@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Sweet Haven Bakery</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">Sweet Haven Bakery</div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="order.html">Order Online</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+                <li><a href="cart.html" class="cart-link">
+                    🛒 Cart <span id="cart-count" class="cart-count">0</span>
+                </a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="contact-hero">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>We'd love to hear from you!</p>
+        </div>
+    </section>
+
+    <!-- Contact Content -->
+    <section class="contact-content">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Information -->
+                <div class="contact-info">
+                    <h2>Visit Us</h2>
+                    <p><strong>📍 Address:</strong><br>
+                    123 Main Street<br>
+                    Alma, MI 48801</p>
+                    
+                    <p><strong>📞 Phone:</strong><br>
+                    (989) 555-BAKE (2253)</p>
+                    
+                    <p><strong>✉️ Email:</strong><br>
+                    hello@sweethavenbakery.com</p>
+                    
+                    <h2 style="margin-top: 2rem;">Hours</h2>
+                    <p><strong>Monday - Friday</strong><br>
+                    6:00 AM - 6:00 PM</p>
+                    
+                    <p><strong>Saturday</strong><br>
+                    7:00 AM - 5:00 PM</p>
+                    
+                    <p><strong>Sunday</strong><br>
+                    8:00 AM - 3:00 PM</p>
+
+                    <h2 style="margin-top: 2rem;">Follow Us</h2>
+                    <p>
+                        🔵 Facebook: @SweetHavenBakery<br>
+                        📷 Instagram: @sweethavenbakery<br>
+                        🐦 Twitter: @SweetHavenMI
+                    </p>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form">
+                    <h2>Send Us a Message</h2>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Additional Info -->
+            <div class="about-section" style="text-align: center; margin-top: 4rem; background: #faf9f7; padding: 3rem; border-radius: 15px;">
+                <h2>Custom Orders & Catering</h2>
+                <p>
+                    Planning a special event? We offer custom cakes, dessert platters, and catering services for weddings, 
+                    corporate events, and celebrations of all kinds. Please contact us at least 48 hours in advance for 
+                    custom orders, and 1 week for large catering orders.
+                </p>
+                <p style="margin-top: 1rem;">
+                    <strong>For custom orders, please call us directly at (989) 555-BAKE or email catering@sweethavenbakery.com</strong>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Sweet Haven Bakery</h3>
+                    <p>Serving Alma with love since 2020</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect With Us</h3>
+                    <p>Follow us on social media for daily specials!</p>
+                    <div class="social-links">
+                        <span>Facebook | Instagram | Twitter</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Sweet Haven Bakery. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="cart.js"></script>
+</body>
+</html>

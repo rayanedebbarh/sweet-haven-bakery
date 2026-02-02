@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Online - Sweet Haven Bakery</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">Sweet Haven Bakery</div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="order.html" class="active">Order Online</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html" class="cart-link">
+                    🛒 Cart <span id="cart-count" class="cart-count">0</span>
+                </a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="menu-hero">
+        <div class="container">
+            <h1>Order Online</h1>
+            <p>Fresh pastries delivered to your door</p>
+        </div>
+    </section>
+
+    <!-- Order Content -->
+    <section class="menu-content">
+        <div class="container">
+            <div class="order-info-banner">
+                <h3>🚚 Free Delivery on Orders Over $25</h3>
+                <p>Delivery available within 10 miles of Alma, MI • Orders processed within 2 hours</p>
+            </div>
+
+            <!-- Pastries -->
+            <div class="menu-category">
+                <h2>Classic Pastries</h2>
+                <div class="order-grid">
+                    <div class="order-item">
+                        <div class="order-item-image">
+                            <img src="images/croissant.jpg" alt="Classic Croissant">
+                        </div>
+                        <h3>Classic Croissant</h3>
+                        <p>Buttery, flaky layers of perfection</p>
+                        <span class="price">$3.50</span>
+                        <button class="add-to-cart-btn" data-name="Classic Croissant" data-price="3.50">Add to Cart</button>
+                    </div>
+                    <div class="order-item">
+                        <div class="order-item-image">
+                            <img src="images/Chocolate Croissant.jpg" alt="Chocolate Croissant">
+                        </div>
+                        <h3>Chocolate Croissant</h3>
+                        <p>Classic croissant filled with rich dark chocolate</p>
+                        <span class="price">$4.00</span>
+                        <button class="add-to-cart-btn" data-name="Chocolate Croissant" data-price="4.00">Add to Cart</button>
+                    </div>
+                    <div class="order-item">
+                        <div class="order-item-image">
+                            <img src="images/Almond Croissant.jpg" alt="Almond Croissant">
+                        </div>
+                        <h3>Almond Croissant</h3>
+                        <p>Filled with almond cream and topped with sliced almonds</p>
+                        <span class="price">$4.50</span>
+                        <button class="add-to-cart-btn" data-name="Almond Croissant" data-price="4.50">Add to Cart</button>
+                    </div>
+                    <div class="order-item">
+                        <div class="order-item-image">
+                            <img src="images/Raspberry Danish.jpg" alt="Raspberry Danish">
+                        </div>
+                        <h3>Raspberry Danish</h3>
+                        <p>Sweet cream cheese with fresh Michigan raspberries</p>
+                        <span class="price">$4.25</span>
+                        <button class="add-to-cart-btn" data-name="Raspberry Danish" data-price="4.25">Add to Cart</button>
+                    </div>
+                    <div class="order-item">
+                        <div class="order-item-image">
+                            <img src="images/danish.jpg" alt="Blueberry Danish">
+                        </div>
+                        <h3>Blueberry Danish</h3>
+                        <p>Cream cheese base with sweet blueberry compote</p>
+                        <span class="price">$4.25</span>
+                        <button class="add-to-cart-btn" data-name="Blueberry Danish" data-price="4.25">Add to Cart</button>
+                    </div>
+                    <div class="order-item">
+                        <div class="order-item-image">
+                            <img src="images/Apple Turnover.jpg" alt="Apple Turnover">
+                        </div>
+                        <h3>Apple Turnover</h3>
+                        <p>Flaky pastry filled with cinnamon-spiced apple filling</p>
+                        <span class="price">$3.75</span>
+                        <button class="add-to-cart-btn" data-name="Apple Turnover" data-price="3.75">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- French Specialties -->
+            <div class="menu-category">
+                <h2>French Specialties</h2>
+                <div class="order-grid">
+                    <div class="order-item">
+                        <div class="order-item-image">
+                            <img src="images/Chocolate Éclair.jpg" alt="Chocolate Éclair">
+                        </div>
+                        <h3>Chocolate Éclair</h3>
+                        <p>Light choux pastry filled with vanilla cream</p>
+                        <span class="price">$4.50</span>
+                        <button class="add-to-cart-btn" data-name="Chocolate Éclair" data-price="4.50">Add to Cart</button>
+                    </div>
+                    <div class="order-item">
+                        <div class="order-item-image">
+                            <img src="images/Vanilla Cream Puff.jpg" alt="Vanilla Cream Puff">
+                        </div>
+                        <h3>Vanilla Cream Puff</h3>
+                        <p>Delicate choux pastry filled with whipped vanilla cream</p>
+                        <span class="price">$3.75</span>
+                        <button class="add-to-cart-btn" data-name="Vanilla Cream Puff" data-price="3.75">Add to Cart</button>
+                    </div>
+                    <div class="order-item">
+                        <div class="order-item-image">
+                            <img src="images/Fruit Tart.jpg" alt="Fruit Tart">
+                        </div>
+                        <h3>Fruit Tart</h3>
+                        <p>Buttery tart shell filled with pastry cream and fresh fruit</p>
+                        <span class="price">$5.50</span>
+                        <button class="add-to-cart-btn" data-name="Fruit Tart" data-price="5.50">Add to Cart</button>
+                    </div>
+                    <div class="order-item">
+                        <div class="order-item-image">
+                            <img src="images/Macarons (Box of 6).jpg" alt="Macarons">
+                        </div>
+                        <h3>Macarons (Box of 6)</h3>
+                        <p>Delicate French macarons in rotating flavors</p>
+                        <span class="price">$12.00</span>
+                        <button class="add-to-cart-btn" data-name="Macarons (Box of 6)" data-price="12.00">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cookies & Treats -->
+            <div class="menu-category">
+                <h2>Cookies & Treats</h2>
+                <div class="order-grid">
+                    <div class="order-item">
+                        <div class="order-item-image">
+                            <img src="images/Chocolate Chip Cookie.jpg" alt="Chocolate Chip Cookie">
+                        </div>
+                        <h3>Chocolate Chip Cookie</h3>
+                        <p>Classic cookie loaded with premium chocolate chips</p>
+                        <span class="price">$2.50</span>
+                        <button class="add-to-cart-btn" data-name="Chocolate Chip Cookie" data-price="2.50">Add to Cart</button>
+                    </div>
+                    <div class="order-item">
+                        <div class="order-item-image">
+                            <img src="images/Double Chocolate Brownie.jpg" alt="Double Chocolate Brownie">
+                        </div>
+                        <h3>Double Chocolate Brownie</h3>
+                        <p>Rich, fudgy brownie with a crackly top</p>
+                        <span class="price">$3.50</span>
+                        <button class="add-to-cart-btn" data-name="Double Chocolate Brownie" data-price="3.50">Add to Cart</button>
+                    </div>
+                    <div class="order-item">
+                        <div class="order-item-image">
+                            <img src="images/Lemon Bar.jpg" alt="Lemon Bar">
+                        </div>
+                        <h3>Lemon Bar</h3>
+                        <p>Tangy lemon custard on a buttery shortbread crust</p>
+                        <span class="price">$3.25</span>
+                        <button class="add-to-cart-btn" data-name="Lemon Bar" data-price="3.25">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Artisan Breads -->
+            <div class="menu-category">
+                <h2>Artisan Breads</h2>
+                <div class="order-grid">
+                    <div class="order-item">
+                        <div class="order-item-image">
+                            <img src="images/Sourdough Loaf.jpg" alt="Sourdough Loaf">
+                        </div>
+                        <h3>Sourdough Loaf</h3>
+                        <p>Crusty exterior, tangy interior. Made with our 50-year-old starter</p>
+                        <span class="price">$6.50</span>
+                        <button class="add-to-cart-btn" data-name="Sourdough Loaf" data-price="6.50">Add to Cart</button>
+                    </div>
+                    <div class="order-item">
+                        <div class="order-item-image">
+                            <img src="images/Baguette.jpg" alt="Baguette">
+                        </div>
+                        <h3>Baguette</h3>
+                        <p>Traditional French baguette with a crispy crust and soft, airy interior</p>
+                        <span class="price">$4.00</span>
+                        <button class="add-to-cart-btn" data-name="Baguette" data-price="4.00">Add to Cart</button>
+                    </div>
+                    <div class="order-item">
+                        <div class="order-item-image">
+                            <img src="images/Multigrain Bread.jpg" alt="Multigrain Bread">
+                        </div>
+                        <h3>Multigrain Bread</h3>
+                        <p>Hearty bread packed with oats, sunflower seeds, and flax seeds</p>
+                        <span class="price">$7.00</span>
+                        <button class="add-to-cart-btn" data-name="Multigrain Bread" data-price="7.00">Add to Cart</button>
+                    </div>
+                    <div class="order-item">
+                        <div class="order-item-image">
+                            <img src="images/Cinnamon Raisin Bread.jpg" alt="Cinnamon Raisin Bread">
+                        </div>
+                        <h3>Cinnamon Raisin Bread</h3>
+                        <p>Swirled with cinnamon sugar and studded with plump raisins</p>
+                        <span class="price">$7.50</span>
+                        <button class="add-to-cart-btn" data-name="Cinnamon Raisin Bread" data-price="7.50">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Sweet Haven Bakery</h3>
+                    <p>Serving Alma with love since 2020</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="order.html">Order Online</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect With Us</h3>
+                    <p>Follow us on social media for daily specials!</p>
+                    <div class="social-links">
+                        <span>Facebook | Instagram | Twitter</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Sweet Haven Bakery. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="cart.js"></script>
+</body>
+</html>
